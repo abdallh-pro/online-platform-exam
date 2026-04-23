@@ -1,0 +1,31 @@
+{
+  "name": "online-platform-exam",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdallh-pro/online-platform-exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdallh-pro/online-platform-exam/issues"
+  },
+  "homepage": "https://github.com/abdallh-pro/online-platform-exam#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0"
+  }
+}
