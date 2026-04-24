@@ -1,38 +1,38 @@
 {
-  "name": "online-platform-exam",
+  "name": "projectv1",
   "version": "1.0.0",
   "main": "app.js",
   "directories": {
-    "doc": "docs",
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abdallh-pro/online-platform-exam.git"
+    "start": "node app.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abdallh-pro/online-platform-exam/issues"
-  },
-  "homepage": "https://github.com/abdallh-pro/online-platform-exam#readme",
-  "keywords": [],
   "description": "",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "connect-flash": "^0.1.1",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "ejs": "^5.0.2",
-    "express": "^5.2.1",
-    "express-session": "^1.19.0",
-    "mongodb": "^7.2.0",
-    "mongoose": "^9.5.0"
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.23.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.2",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.10"
   }
 }
